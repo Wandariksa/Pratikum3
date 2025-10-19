@@ -15,17 +15,13 @@ Di awali dengan START, lalu dilanjutkan dengan proses INPUT untuk 3 bilangan, ya
 Kode Program (terbesar.py)
 
 A = int(input("bilangan 1: "))
-
 B = int(input("bilangan 2: "))
-
 C = int(input("bilangan 3: "))
 
 if A >= B and A >= C:
-
     print("1 bilangan terbesar")
     
 elif B >= A and B >= C:
-
     print("2 bilangan terbesar")
     
 else:
