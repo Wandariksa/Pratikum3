@@ -1,9 +1,10 @@
-Praktikum3: Menentukan Bilangan Terbesar dari 3 Bilangan (Python)
+# Praktikum 3 :
+Menentukan Bilangan Terbesar dari 3 Bilangan (Python)
 Penjelasan Tugas
 Tugas ini bertujuan untuk membuat program Python yang dapat menerima tiga buah input bilangan bulat dan menentukan serta mencetak bilangan mana yang memiliki nilai terbesar.
 ________________________________________
-Flowchart Program
- ![WhatsApp Image 2025-10-19 at 13 15 03](https://github.com/user-attachments/assets/20639c7c-be55-47e4-9b0a-30b58f8f5203)
+# Flowchart Program
+ ![flowchart](https://github.com/user-attachments/assets/d128bfa7-57c3-437e-9465-02df8c546e6e)
 
 Penjelasan Flowchart : 
 Di awali dengan START, lalu dilanjutkan dengan proses INPUT untuk 3 bilangan, yaitu bilangan 1, bilangan 2 dan bilangan 3. Kemudian, program dengan menggunakan serangkaian Keputusan untuk membandingkan nilai-nilai tersebut.
@@ -22,17 +23,20 @@ elif B >= A and B >= C:
     print("2 bilangan terbesar")
 else:
     print("3 bilangan terbesar")
+   ![screenshoot](https://github.com/user-attachments/assets/86e5b39b-4059-4382-983b-69c4981961c1)
+
+
  
-Penjelasan Kode Program:
+# Penjelasan Kode Program:
 1.	Input: Program menggunakan input() dan diubah ke tipe int() untuk menerima tiga bilangan bulat. Blok try-except digunakan untuk menangani kesalahan jika input yang dimasukkan bukan angka.
+   
 2.	Percabangan if-elif-else:
 if A >= B and A >= C:: Mengecek apakah A lebih besar atau sama dengan kedua bilangan lainnya.
 elif B >= A and B >= C:: Jika kondisi pertama salah, cek apakah B lebih besar atau sama dengan A dan C.
 else:: Jika kedua kondisi di atas salah, maka otomatis C adalah yang terbesar.
-3.	Output: Bilangan terbesar dicetak menggunakan fungsi print().
-4.	Hasil Output
-5.	<img width="975" height="132" alt="image" src="https://github.com/user-attachments/assets/d561f435-06d9-437b-87ca-96e64bfb1c77" />
 
-________________________________________
-Hasil OUTPUT
- 
+3.	Output: Bilangan terbesar dicetak menggunakan fungsi print().
+_____________________________
+# Hasil OUTPUT
+ <img width="975" height="132" alt="image" src="https://github.com/user-attachments/assets/b083db63-886c-4044-a611-982065743f7d" />
+
