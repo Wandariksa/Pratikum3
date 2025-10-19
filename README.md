@@ -13,16 +13,25 @@ Di awali dengan START, lalu dilanjutkan dengan proses INPUT untuk 3 bilangan, ya
 3.	Jika proses diatas tidak terpenuhi, otomatis bilangan 3 adalah bilangan terbesar. Hasil perbandingan akan dicetak melalui proses OUTPUT, dan alur program diakhiri dengan END.
 
 Kode Program (terbesar.py)
+
 A = int(input("bilangan 1: "))
+
 B = int(input("bilangan 2: "))
+
 C = int(input("bilangan 3: "))
 
 if A >= B and A >= C:
+
     print("1 bilangan terbesar")
+    
 elif B >= A and B >= C:
+
     print("2 bilangan terbesar")
+    
 else:
+
     print("3 bilangan terbesar")
+    
    ![screenshoot](https://github.com/user-attachments/assets/86e5b39b-4059-4382-983b-69c4981961c1)
 
 
